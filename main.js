@@ -154,7 +154,7 @@ class Signl4 extends utils.Adapter {
 		const options = {
 		  hostname: 'connect.signl4.com',
 		  port: 443,
-		  path: '/webhook/' + this.config.option2,
+		  path: '/webhook/' + this.config.team_secret,
 		  method: 'POST',
 		  headers: {
 			'Content-Type': 'application/json'
