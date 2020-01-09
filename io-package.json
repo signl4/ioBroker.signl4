@@ -1,0 +1,85 @@
+{
+    "common": {
+        "name": "signl4",
+        "version": "0.0.8",
+        "news": {
+            "0.0.8": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "SIGNL4",
+        "titleLang": {
+            "en": "SIGNL4",
+            "de": "SIGNL4",
+            "ru": "SIGNL4",
+            "pt": "SIGNL4",
+            "nl": "SIGNL4",
+            "fr": "SIGNL4",
+            "it": "SIGNL4",
+            "es": "SIGNL4",
+            "pl": "SIGNL4",
+            "zh-cn": "SIGNL4"
+        },
+        "desc": {
+            "en": "Mobile alerting with tracking, duty planning and escalation for ioBroker.",
+            "de": "Mobile Alarmierung mit Tracking, Dienstplanung und Eskalation für ioBroker.",
+            "ru": "Мобильное оповещение с отслеживанием, планированием работы и эскалацией для ioBroker.",
+            "pt": "Alerta móvel com rastreamento, planejamento de tarefas e encaminhamento para o ioBroker.",
+            "nl": "Mobiele alarmering met tracking, planningsplanning en escalatie voor ioBroker.",
+            "fr": "Alerte mobile avec suivi, planification des tâches et escalade pour ioBroker.",
+            "it": "Avviso mobile con monitoraggio, pianificazione delle attività e escalation per ioBroker.",
+            "es": "Alerta móvil con seguimiento, planificación de tareas y escalamiento para ioBroker.",
+            "pl": "Mobilne powiadamianie ze śledzeniem, planowaniem obowiązków i eskalacją dla ioBroker.",
+            "zh-cn": "ioBroker具有跟踪，值班计划和升级的移动警报。"
+        },
+        "authors": [
+            "Ron <ron@signl4.com>"
+        ],
+        "keywords": [
+            "alert",
+            "alarm",
+            "sms",
+            "call",
+            "duty planning",
+            "on-call",
+            "escalation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "signl4.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/rons4/ioBroker.signl4/master/admin/signl4.png",
+        "readme": "https://github.com/rons4/ioBroker.signl4/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "messaging",
+		"blockly": true,
+        "compact": true,
+        "materialize": true,
+		"message": true,
+		"messagebox": true,
+		"subscribe": "messagebox",
+		"wakeup": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "team_secret": "team-secret"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
